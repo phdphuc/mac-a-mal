@@ -12,6 +12,7 @@
 #include <mach/mach_types.h>
 #include <sys/types.h>
 #include <sys/param.h>
+#include <stdbool.h>
 
 kern_return_t install_kern_control(void);
 kern_return_t remove_kern_control(void);
